@@ -21,7 +21,7 @@ public class Main {
         System.out.println("Please select a month by it's number:");
         int userMonth = input.nextInt();
 
-        switch (userMonth) {
+        switch (userMonth) { // https://docs.oracle.com/javase/tutorial/java/nutsandbolts/switch.html
             case 1:  futureMonths.add("January");
             case 2:  futureMonths.add("February");
             case 3:  futureMonths.add("March");
